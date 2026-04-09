@@ -4,8 +4,8 @@
 
 - ami_id(Mandatory): User must supply ami_id
 - sg_id(Mandatory): User must supply sg_id
-- instance_type(Mandatory): User can supply, default is "t2.micro"
-- server_name(optional): User can supply, default is "new_instance"
+- instance_type(optional): User can supply, default is "t2.micro"
+- server_name(optional): User can supply, default is "ec2_instance"
 
 **Outputs:**
 

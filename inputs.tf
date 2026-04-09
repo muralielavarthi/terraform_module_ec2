@@ -1,6 +1,6 @@
 variable "server_name" {
   type = string
-  default = "new_instance"
+  default = "ec2_instance"
   description = "variable is for server name"
 }
 
