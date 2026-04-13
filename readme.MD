@@ -7,9 +7,11 @@
 - instance_type(optional)(string): User can supply, default is "t2.micro"
 - server_name(optional)(string): User can supply, default is "ec2_instance"
 - tags(optional)(map): User can supply, default is
-  -- "Project" = "calculator"
-  -- "Environment" = "dev"
-  -- "service" = "frontend"
+  ```
+  "Project" = "calculator"
+  "Environment" = "dev"
+  "service" = "frontend"
+  ```
 
 **Outputs:**
 
