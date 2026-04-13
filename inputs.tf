@@ -1,3 +1,5 @@
+# input variables for EC2 instance module
+
 variable "server_name" {
   type = string
   default = "ec2_instance"
