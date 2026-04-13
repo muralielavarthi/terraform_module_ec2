@@ -21,3 +21,12 @@ variable "instance_type" {
   default = "t2.micro"
   description = "variable is for instance type"
 }
+
+variable "tags" {
+  type = map(string)
+  default = {
+    "Project"     = "calculator"
+    "Environment" = "dev"
+    "service"     = "frontend"
+  }
+}
