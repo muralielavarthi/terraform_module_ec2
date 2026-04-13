@@ -2,8 +2,8 @@
 
 **Inputs:**
 
-- ami_id(Mandatory)(string): User must supply ami_id
-- sg_id(Mandatory)(string): User must supply sg_id
+- ami_id(mandatory)(string): User must supply ami_id
+- sg_id(mandatory)(string): User must supply sg_id
 - instance_type(optional)(string): User can supply, default is "t2.micro"
 - server_name(optional)(string): User can supply, default is "ec2_instance"
 - tags(optional)(map): User can supply, default is
@@ -20,7 +20,7 @@
 
 **Resources Created:**
 
-- ec2_instance
+- aws_ec2_instance
 
 ```
 module "web_server"{
