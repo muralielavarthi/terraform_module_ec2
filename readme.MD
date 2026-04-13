@@ -12,6 +12,10 @@
 - public_ip: public IP of the instance created
 - private_ip: private IP of the instance created
 
+**Resources Created:**
+
+- ec2_instance
+
 ```
 module "web_server"{
     source="git::https://github.com/muralielavarthi/terraform_module_ec2.git
