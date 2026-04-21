@@ -18,7 +18,7 @@
 
 ```
 module "web_server"{
-    source="git::https://github.com/muralielavarthi/terraform_module_ec2.git
+    source="git::https://github.com/muralielavarthi/terraform_module_ec2.git"
     ami_id="ami-0220d79f3f480ecf5"
     sg_id="2w03179f3f480ecf5"
     instance_type="t3.micro"
